@@ -7,8 +7,8 @@ document.getElementById("button-handle").addEventListener("click" ,function(){
     //console.log(passAreaValue)
 
     if(emailAreaValue== "muhsina@gmail.com" && passAreaValue=='343434')
-        console.log('valid')
+        window.location.href= 'bank.html'
     else{
-        console.log('invalid')
+      alert('invalid password')
     }
 })
